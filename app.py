@@ -19,7 +19,7 @@ st.set_page_config(
 # =========================================================
 
 MODEL_PATH = "models/best_model.joblib"
-DATA_PATH = "data/employee_data.csv"
+DATA_PATH = "data/processed/cleaned_data.csv"
 
 @st.cache_resource
 def load_model():
