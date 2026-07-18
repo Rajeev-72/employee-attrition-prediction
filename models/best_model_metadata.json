@@ -1,0 +1,18 @@
+{
+  "best_model": "logistic_regression",
+  "metrics": {
+    "accuracy": 0.81,
+    "precision": 0.4545,
+    "recall": 0.7,
+    "f1_score": 0.5512,
+    "roc_auc": 0.8554
+  },
+  "all_models_ranked": [
+    "logistic_regression",
+    "xgboost",
+    "svm",
+    "gradient_boosting",
+    "random_forest",
+    "knn"
+  ]
+}
