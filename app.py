@@ -34,15 +34,17 @@ DATA_PATH = "data/processed/cleaned_data.csv"
 
 @st.cache_resource
 def load_model():
-return joblib.load(MODEL_PATH)
+    return joblib.load(MODEL_PATH)
+
 
 @st.cache_resource
 def load_preprocessor():
-return joblib.load(PREPROCESSOR_PATH)
+    return joblib.load(PREPROCESSOR_PATH)
+
 
 @st.cache_data
 def load_data():
-return pd.read_csv(DATA_PATH)
+    return pd.read_csv(DATA_PATH)
 
 # =========================================================
 
