@@ -18,7 +18,7 @@ st.set_page_config(
 # LOAD MODEL AND DATA
 # =========================================================
 
-MODEL_PATH = "models/best_model.pkl"
+MODEL_PATH = "models/best_model.joblib"
 DATA_PATH = "data/employee_data.csv"
 
 @st.cache_resource
